@@ -5,9 +5,6 @@ import React_Logo from "./reactjs-logo.svg";
 import Git_Logo from "./git-logo.svg";
 import Github_Logo from "./github-logo.svg";
 import Blog_App from "./blog-app.png";
-import Weather_App from "./weather-app.png";
-import CRUD_App from "./crud-app.png";
-import Js_Projects from "./js-projects.png";
 import Portfolio from "./portfoliopic.png";
 import Tailwind_Logo from "./tailwind-logo.svg";
 import Java_Logo from "./java-logo.svg";
@@ -18,6 +15,9 @@ import Gitlab_Logo from "./gitlab-logo.svg";
 import Postman_Logo from "./postman-logo.svg";
 import Mysql_Logo from "./mysql-logo.svg";
 import MUBlog from "./mublog.png";
+import ForexFlow from "./forexflow.png";
+import HHteam from "./hhteam.PNG";
+import Resume from "./resume.pdf";
 
 
 export {
@@ -29,9 +29,6 @@ export {
   Github_Logo,
   Tailwind_Logo,
   Blog_App,
-  Weather_App,
-  CRUD_App,
-  Js_Projects,
   Portfolio,
   Java_Logo,
   Cpp_logo,
@@ -41,4 +38,7 @@ export {
   Postman_Logo,
   Mysql_Logo,
   MUBlog,
+  ForexFlow,
+  HHteam,
+  Resume
 };

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import { MUBlog, Weather_App, CRUD_App, Portfolio } from "../assets/images/index.js"
+import { FaGithub } from "react-icons/fa";
+import { MUBlog, Portfolio, ForexFlow, HHteam } from "../assets/images/index.js"
 
 function Projects() {
   const [visible,setVisible] = useState(0);
@@ -16,7 +16,20 @@ function Projects() {
         gitHub: "https://github.com/kamel404/muBlog",
       },
       tags: [
-        "Laravel", "php", "sqlite", "tailwind"
+        "Laravel", "Php", "Sqlite", "Tailwind"
+      ]
+    },
+    {
+      id: 2,
+      image: ForexFlow,
+      imageAlt: "Forex Flow Community",
+      name: "Forex Flow Community",
+      description: "A forex community platform built with Laravel and Vue.js",
+      links: {
+        gitHub: "https://gitlab.com/kamel404/fair-value-pips-frontend",
+      },
+      tags: [
+        "Laravel", "Vue JS"
       ]
     },
     {
@@ -26,36 +39,24 @@ function Projects() {
       name: "Portfolio",
       description: "Personal Portfolio built with React.js & Tailwind CSS",
       links: {
-        gitHub: "https://github.com/kamel404/portfolio",
+        gitHub: "https://github.com/kamel404/Portfolio",
       },
       tags: [
-        "react", "tailwind", "javascript"
+        "React JS", "Tailwind" , "Laravel"
       ]
     },
+
     {
       id: 4,
-      image: Weather_App,
-      imageAlt: "React Weather App",
-      name: "Weather App",
-      description: "A Weather App built with React.js and OpenWeatherMap API",
+      image: HHteam,
+      imageAlt: "HH Team",
+      name: "HH Team",
+      description: "A forex academy platform built with React.js & Bootstrap",
       links: {
-        gitHub: "https://github.com/talhashah-dev/weather-app-react",
+        gitHub: "https://gitlab.com/mohammad.a.mansour2001/hhteam-react-frontend",
       },
       tags: [
-        "react", "css", "api"
-      ]
-    },
-    {
-      id: 5,
-      image: CRUD_App,
-      imageAlt: "CRUD App",
-      name: "CRUD App",
-      description: "A CRUD operation Web App built with React.js and Bootstrap for UI and Mockapi as the DB.",
-      links: {
-        gitHub: "https://github.com/talhashah-dev/react-crud-app",
-      },
-      tags: [
-        "react", "bootstrap", "api"
+        "Laravel", "React JS", "Bootstrap"
       ]
     },
   ]
@@ -100,15 +101,11 @@ function Projects() {
                   <a href={cards.links.gitHub} className="font-bold text-xl mb-1 mt-1 max-md:text-black text-white cursor-pointer hover:scale-110" target="_blank" title="Github Repo" rel="noreferrer">
                     <FaGithub /> 
                   </a>
-                  {/* <a href={cards.links.hosted} className="font-bold text-base mb-1 mt-1 max-md:text-black text-white cursor-pointer hover:scale-110" target="_blank" title="Live Preview" rel="noreferrer">
-                    <FaExternalLinkAlt /> 
-                  </a> */}
                 </div>
                   <p className="text-gray-200 max-md:text-gray-600 text-base">
                     {cards.description}
                   </p>
               </div>
-
               <div className="px-4 pt-4 pb-2">
                 {
                  cards.tags.map((element,index) => {

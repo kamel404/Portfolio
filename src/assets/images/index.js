@@ -4,7 +4,6 @@ import Bootstrap_Logo from "./bootstrap-logo.svg";
 import React_Logo from "./reactjs-logo.svg";
 import Git_Logo from "./git-logo.svg";
 import Github_Logo from "./github-logo.svg";
-import Blog_App from "./blog-app.png";
 import Portfolio from "./portfoliopic.png";
 import Tailwind_Logo from "./tailwind-logo.svg";
 import Java_Logo from "./java-logo.svg";
@@ -28,7 +27,6 @@ export {
   Git_Logo,
   Github_Logo,
   Tailwind_Logo,
-  Blog_App,
   Portfolio,
   Java_Logo,
   Cpp_logo,

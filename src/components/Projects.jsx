@@ -1,22 +1,22 @@
 import React, { useState, useEffect } from 'react'
 import { FaGithub } from "react-icons/fa";
-import { MUBlog, Portfolio, ForexFlow, HHteam } from "../assets/images/index.js"
+import { MUBlog, Portfolio, ForexFlow, HHteam, MUConnect, ResumeAnalyzer } from "../assets/images/index.js"
 
 function Projects() {
   const [visible,setVisible] = useState(0);
   const [isLargeScreen, setIsLargeScreen] = useState(false);
   const projects = [
-    {
+     {
       id: 1,
-      image: MUBlog,
-      imageAlt: "Blog App",
-      name: "MU Blog",
-      description: "Unique Blog platform for Maaref University students using Laravel and Blade templates.",
+      image: MUConnect,
+      imageAlt: "MU Connect",
+      name: "MU Connect",
+      description: "A social platform for Maaref University students built with React.js & Laravel",
       links: {
-        gitHub: "https://github.com/kamel404/muBlog",
+        gitHub: "https://github.com/kamel404/MUConnect",
       },
       tags: [
-        "Laravel", "Php", "Sqlite", "Tailwind"
+        "React JS", "Chakra UI" , "Laravel"
       ]
     },
     {
@@ -29,34 +29,35 @@ function Projects() {
         gitHub: "https://gitlab.com/kamel404/fair-value-pips-frontend",
       },
       tags: [
-        "Laravel", "Vue JS"
+        "Laravel", "Vue JS", "Veuxy"
       ]
     },
+
     {
       id: 3,
-      image: Portfolio,
-      imageAlt: "Portfolio",
-      name: "Portfolio",
-      description: "Personal Portfolio built with React.js & Tailwind CSS",
+      image: MUBlog,
+      imageAlt: "Blog App",
+      name: "MU Blog",
+      description: "Unique Blog platform for Maaref University students using Laravel and Blade templates.",
       links: {
-        gitHub: "https://github.com/kamel404/Portfolio",
+        gitHub: "https://github.com/kamel404/muBlog",
       },
       tags: [
-        "React JS", "Tailwind" , "Laravel"
+        "Laravel", "Php", "Sqlite", "Tailwind"
       ]
     },
 
     {
       id: 4,
-      image: HHteam,
-      imageAlt: "HH Team",
-      name: "HH Team",
-      description: "A forex academy platform built with React.js & Bootstrap",
+      image: ResumeAnalyzer,
+      imageAlt: "Resume Analyzer",
+      name: "Resume Analyzer",
+      description: "A tool for analyzing resumes built with React.js & Puter js store",
       links: {
-        gitHub: "https://gitlab.com/mohammad.a.mansour2001/hhteam-react-frontend",
+        gitHub: "https://github.com/kamel404/AI-Resume-Analyzer",
       },
       tags: [
-        "Laravel", "React JS", "Bootstrap"
+        "React JS", "Puter JS", "Tailwind CSS", "AI API"
       ]
     },
   ]

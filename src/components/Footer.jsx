@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
   return (
     <div className="mx-auto w-full text-center">
-      <p className="text-xl">Made with ❤️ by Kamel Faour </p>
+      <p className="text-xl">Copyright © 2025 Kamel Faour</p>
     </div>
   )
 }

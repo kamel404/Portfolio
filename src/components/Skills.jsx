@@ -13,6 +13,8 @@ import {
   Gitlab_Logo,
   Postman_Logo,
   Mysql_Logo,
+  Flutter_Logo,
+  Docker_Logo
 } from "../assets/images/index";
 
 function Skills() {
@@ -36,7 +38,7 @@ function Skills() {
       items: [
         { src: Laravel_Logo, alt: "Laravel" },
         { src: React_Logo, alt: "React" },
-        { src: Bootstrap_Logo, alt: "Bootstrap" },
+        { src: Flutter_Logo, alt: "Flutter" },
         { src: Tailwind_Logo, alt: "Tailwind" },
       ],
     },
@@ -53,6 +55,7 @@ function Skills() {
       items: [
         { src: Postman_Logo, alt: "Postman" },
         { src: Mysql_Logo, alt: "MySQL" },
+        { src: Docker_Logo, alt: "Docker" },
       ],
     },
   ];

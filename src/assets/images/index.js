@@ -1,6 +1,5 @@
 import JavaScript_Logo from "./javascript-logo.svg";
 import Python_Logo from "./python-logo.svg";
-import Bootstrap_Logo from "./bootstrap-logo.svg";
 import React_Logo from "./reactjs-logo.svg";
 import Git_Logo from "./git-logo.svg";
 import Github_Logo from "./github-logo.svg";
@@ -17,12 +16,15 @@ import MUBlog from "./mublog.png";
 import ForexFlow from "./forexflow.png";
 import HHteam from "./hhteam.PNG";
 import Resume from "./resume.pdf";
+import Flutter_Logo from "./flutter-icon.svg";
+import Docker_Logo from "./docker-logo.svg";
+import MUConnect from "./mu-connect.jpg";
+import ResumeAnalyzer from "./resume-analyzer.png";
 
 
 export {
   JavaScript_Logo,
   Python_Logo,
-  Bootstrap_Logo,
   React_Logo,
   Git_Logo,
   Github_Logo,
@@ -38,5 +40,9 @@ export {
   MUBlog,
   ForexFlow,
   HHteam,
-  Resume
+  Resume,
+  Flutter_Logo,
+  Docker_Logo,
+  MUConnect,
+  ResumeAnalyzer
 };
